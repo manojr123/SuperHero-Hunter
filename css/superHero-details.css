@@ -1,0 +1,79 @@
+/*
+    Creation : 02-Feb-2023 
+    Author   : Manoj Raghavan
+    File     : superHero-details.css
+
+    Version history and changes:
+    1.0 - Creation - 
+          Superhero Hunter App using :
+          HTML/CSS/JAVASCRIPT/LocalStorage
+    2.0 - 
+*/
+
+body {
+    
+    background-color: black;;
+    color : white;
+
+}
+
+/* Container for dynamically added superhero detail*/
+#container {
+    
+    height : 300px;
+    width : 600px;
+    border : 1px solid yellow;
+    margin-left: 250px;
+    margin-top: 40px;
+
+}
+#maintitle {
+    color : gold;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 350px;
+}
+
+/* Each superhero item */
+#item {
+    display: flex;
+    flex-direction: row;
+}
+#item img {
+    height : 300px;
+}
+#details {
+    display : flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 5px;
+    justify-content: space-evenly;
+
+}
+
+.heading {
+    color :rgb(180, 77, 17);
+    margin-bottom: 5px;
+
+
+}
+
+#details .text {
+    color : white;
+}
+header {
+    background-image: url('../images/m1.jpg');
+    height : 150px;
+    
+}
+
+#favourites {
+    text-align : right;
+    font-size: 12px;
+}
+a:link {
+    color :blanchedalmond;
+}
+a:visited {
+    color :rgb(255, 251, 0);
+}

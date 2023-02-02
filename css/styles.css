@@ -1,0 +1,119 @@
+/*
+    Creation : 02-Feb-2023 
+    Author   : Manoj Raghavan
+    File     : styles.css
+
+    Version history and changes:
+    1.0 - Creation - 
+          Superhero Hunter App using :
+          HTML/CSS/JAVASCRIPT/LocalStorage
+    2.0 - 
+*/
+
+body {
+    /* background-image: url('images/m1.jpg'); */
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat ; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+/* Add the background image to the header */
+header {
+    background-image: url('../images/m1.jpg');
+    height : 150px;
+    
+}
+
+#app {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(8, 8, 44);
+    height : 100%;
+    text-align: center;
+    width : 100%;
+}
+
+#maintitle {
+    color : gold;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* The search input text box */
+#search {
+    margin-top : 10px;
+    height : 20px;
+    width : 300px;
+    font-size: 16px;
+}
+
+button {
+    background-color: skyblue;
+    border-radius: 5px;
+    height : 25px;
+    color :brown
+}
+
+
+/* The Container for all the superhero search results added dynamically from JS */
+#container {
+    width : 75%;
+    display : flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 100px;
+    color : white;
+    font-size: 12px;
+    
+}
+
+/* Each superhero item from search result */
+.item {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+
+}
+.images {
+    height : 160px;
+    width : 160px;
+    color : white;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    
+}
+.item span {
+    color : rgb(238, 127, 36);
+}
+.addFavourites {
+    width : 150px;
+    background-color : skyblue;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+#favourites {
+    text-align : right;
+    font-size: 12px;
+
+}
+a:link {
+    color :blanchedalmond;
+}
+a:visited {
+    color :rgb(255, 251, 0);
+}
+
+fa-heart {
+    color : rgb(201, 13, 13);
+    font-size: 8px;
+}

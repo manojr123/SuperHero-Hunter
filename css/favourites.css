@@ -1,0 +1,95 @@
+/*
+    Creation : 02-Feb-2023 
+    Author   : Manoj Raghavan
+    File     : favourites.css
+
+    Version history and changes:
+    1.0 - Creation - 
+          Superhero Hunter App using :
+          HTML/CSS/JAVASCRIPT/LocalStorage
+    2.0 - 
+*/
+
+body {
+    background-color: black;
+}
+
+#favourites {
+
+    color : white;
+    width : 100%;
+    
+}
+
+/* Container for all the superhero favourites added dynamically from JS */
+#container {
+    width : 80%;
+    display : flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 200px;
+    color : white;
+    
+}
+#maintitle {
+    color : gold;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#title {
+    margin-left : 200px;
+    text-align: left;
+    font-size: 20px;
+    color :red;
+}
+
+/* Each superhero item */
+.item {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 12px;
+
+}
+
+.images {
+    height : 150px;
+    width : 150px;
+    color : white;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    
+}
+.item span {
+    color : rgb(238, 127, 36);
+}
+.addFavourites {
+    width : 150px;
+    background-color : skyblue;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 10px;
+
+}
+header {
+    background-image: url('../images/m1.jpg');
+    height : 150px;
+    
+}
+
+#favourites {
+    text-align : right;
+    font-size: 12px;
+
+}
+a:link {
+    color :blanchedalmond;
+}
+a:visited {
+    color :rgb(255, 251, 0);
+}
