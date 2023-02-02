@@ -38,7 +38,7 @@
             URLAuth = "ts=1&apikey=2f9db1aaaf4257f3b606efd6672b4d37&hash=d0e5ed175983e441713135d32b5cb2a0";
             
             // Fetch the superhero character data asynchronously using async await
-            const response = await fetch(`http://gateway.marvel.com/v1/public/characters?nameStartsWith=${input}&${URLAuth}`);
+            const response = await fetch(`https://gateway.marvel.com/v1/public/characters?nameStartsWith=${input}&${URLAuth}`);
             const data = await response.json();
             console.log(data);
 
